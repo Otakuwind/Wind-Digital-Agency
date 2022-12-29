@@ -144,5 +144,114 @@ padding: 80px 0;
 }
 #about-us ul li{
     margin: 10px 0;
-    
+
+}
+#about-us ul li
+{
+    margin-left: 20px;
+}
+
+/*----------------Testimonial----------------*/
+#testimonials
+{
+    margin: 100px 0;
+}
+
+.testimonials
+{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*----------------------------Social media section---------------------------------------------*/
+
+.social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img
+{
+width: 60px;
+transition: 1s;
+}
+.social-icons a:hover img
+{
+    background: #a517ba;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*------------------footer-----------------------*/
+#footer{
+    background-image: linear-gradient(to right, #a51ba7,#5f1782);
+    color: #fff;
+}
+.footer-img
+{
+    width: 100%;
+
+}
+
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img{
+    width: 60px;
+    margin-bottom: 20px;
+    height: 40px;
+    padding-left: 20px
+}
+.footer-box .fa-bars{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px ;
+    width: 40px ;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px ;
+    background-image: linear-gradient(to right, #a51ba7,#5f1782);
+
+}
+
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none ;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a51ba7,#5f1782);
+
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
 }
